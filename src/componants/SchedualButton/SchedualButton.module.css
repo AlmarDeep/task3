@@ -1,0 +1,36 @@
+.mybutton{
+    position: relative;
+}
+.mybutton button{
+    width: 300px;
+    height: 60px;
+    font-size: x-large;
+}
+.parenti{
+    width: 300px;
+}
+.childi{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    z-index: 1;
+    background-color: #f35525;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width:992px) {
+    .childi{
+        width: 8vw;
+        height: 5vh;
+        top: 15%;
+        left: 0.5%;
+    }
+    .mybutton{
+        display: flex;
+        align-items: center;
+    }
+    .mybutton button{
+        width: 220px;
+    }
+}

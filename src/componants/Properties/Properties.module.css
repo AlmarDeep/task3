@@ -1,0 +1,83 @@
+.Properties{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.protitles h1{
+     text-align: center;
+    color: #f35525;
+    
+}
+
+.protitles p{
+   text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.propcard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1600px;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.buttons{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    font-size: x-large;
+    
+}
+.propertybuttons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+   gap: 30px;
+  
+}
+.propertybuttons button{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+}
+.propertybuttons button:focus{
+    background-color: #f35525;
+    border-color: #f35525;
+}
+.buttons button:focus{
+    background-color: #f35525;
+    border-color: #f35525;
+}
+@media screen and (max-width:992px) {
+   .Properties{
+    flex-direction: column;
+   }
+    .protitles p{
+        font-size: large;
+    }
+    .protitles{
+        width: fit-content;
+    }
+    .propcard{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .buttons{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

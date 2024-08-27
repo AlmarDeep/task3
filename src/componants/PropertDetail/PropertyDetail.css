@@ -1,0 +1,34 @@
+
+
+.singleproperty h3{
+    margin-top: 10px;
+    background-color: #fbd9cf;
+    font-size: x-large;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PropertyDetail{
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.singleproperty img{
+    width: 60vw;
+    height: 60vh;
+
+}
+
+@media screen and ( max-width:992px ) {
+    .PropertyDetail{
+        flex-direction: column;
+        align-items: center;
+    }
+}

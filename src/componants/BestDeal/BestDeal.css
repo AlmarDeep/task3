@@ -1,0 +1,38 @@
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top .texts h1{
+    font-size: 5rem;
+    color: #f35525;
+}
+.top .texts h2{
+    font-size: 3rem;
+}
+.buttons{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    font-size: x-large;
+    
+}
+
+.buttons button:focus{
+    background-color: #f35525;
+}
+
+@media screen and (max-width:992px) {
+    .top{
+        flex-direction: column;
+    }
+    
+}

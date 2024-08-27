@@ -1,0 +1,38 @@
+.allvideo{
+  height: 1100px;
+}
+.videosection{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   height: 1000px;
+}
+
+  .myvideo{
+    position: absolute;
+    right: 50%;
+    left: 35%;
+    top: 75%;
+    z-index: 1;
+   
+  }
+  .thevideo{
+    width: 1000px;
+    height: 500px;
+    object-fit: fill;
+  }
+
+
+ @media screen and (max-width:992px){
+  .myvideo{
+    position: static;
+    left: 0%;
+  }
+  .thevideo{
+    width: 80vw;
+
+  }
+ }

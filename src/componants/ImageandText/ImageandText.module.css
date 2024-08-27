@@ -1,0 +1,46 @@
+.imgandtext{
+    position: relative;
+    width: max-content;
+}
+.imgandtext img{
+    width: 95vw;
+    padding-left: 20px;
+}
+.textimg{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    width: 30vw;
+    
+  }
+  .textimg h1{
+    
+       font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+  }
+  .textimg p{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+  }
+  @media screen and (max-width:992px){
+    .textimg{
+        top:0%
+    }
+    .imgandtext img{
+      width: 90vw;
+    }
+    .textimg {
+    top: 20%;
+    }
+    .textimg h1{
+      font-size: 20px;
+    }
+    .textimg p{
+     font-size: 20px;
+    }
+   
+ }

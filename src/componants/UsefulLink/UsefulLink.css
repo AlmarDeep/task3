@@ -1,0 +1,23 @@
+.usefullinks{
+    width: 600px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #fafafa;
+   
+
+}
+.usefullinks p{
+    font-size: x-large;
+    font-weight: bold;
+   
+  }
+  .usefullinks a{
+      text-decoration: none;
+      color: blue;
+  }
+  .usefullinks h2{
+      font-weight: bolder;
+      font-size: xx-large;
+     
+      padding-top: 10px;
+  }
